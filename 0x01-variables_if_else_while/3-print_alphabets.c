@@ -2,27 +2,26 @@
 
 /**
  * main - Entry point
- * Return: Always 0 (Succcess)
+ *
+ *
+ * Return: Always 0 (Sucess)
  */
 
-
 int main(void)
-
 {
-	char low;
+	char c;
 
-	for (low = 'a'; low <= 'z'; low++)
+	for (c = 'a' ; c <= 'z' ; c++)
 	{
-	putchar(low);
+		putchar(c);
+
 	}
 
-        for (low = 'A'; low <= 'Z'; low++)
+	for (c = 'A' ; c <= 'Z' ; c++)
 	{
-	putchar(low);
+		putchar(c);
 	}
-        putchar('\n');
-
-        return (0);
-
+	putchar('\n');
+	return (0);
 }
 
